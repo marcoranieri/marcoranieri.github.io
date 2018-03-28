@@ -1,0 +1,113 @@
+/* RESET margin, padding */
+* {
+  margin: 0;
+  padding: 0
+}
+div {
+  margin: 0;
+  padding: 0
+}
+
+/*MAIN RULES for body*/
+body {
+  background: #ECECEB url("images/code_space.jpg") no-repeat fixed;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  color : #E2DED3;
+  font-size: 20px;
+  line-height: 30px;
+
+}
+
+/* CENTERED and BK-COLOR main DIV */
+.container {
+  background-color: #FF6D24;
+  width: 700px;
+  margin: 0 auto;
+}
+.card {
+  text-align: center;
+}
+
+/* PROFILE div */
+#profile {
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin: 30px 0;
+  position: relative;
+  top: -20px;
+}
+
+/* AVATAR */
+.avatar {
+  border-radius: 50%;
+  border: 2px solid rgba(255, 0, 0, .7);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: transform 0.25s;
+}
+
+.avatar:hover {
+  transform: rotate(360deg);
+}
+
+/* ROUND-CORNER for img */
+.round-corner {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* LINK */
+a {
+  color: black;
+  text-decoration: none
+}
+
+a:hover {
+  color: white;
+}
+
+/* HEADERS H1 H2*/
+h1, h2 {
+  font-family: "Montserrat";
+  text-shadow: 2px 2px 5px red;
+  opacity: .9;
+}
+
+h2 {
+  letter-spacing: 15px;
+  line-height: 150px;
+  font-weight: lighter;
+  font-size: 15px;
+  color: rgba(255, 255, 255, .8);
+}
+
+/* P text*/
+p {
+  opacity: .8;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+/* BUTTONize */
+.button {
+    background-color: lightgray;
+    width: 30%;
+    border: none;
+    color: #FF6D24;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px
+}
+
+.button:hover {
+    color: #111;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/*GAIN EXTRA SPACE*/
+#table {
+  margin-top: 20px
+}
