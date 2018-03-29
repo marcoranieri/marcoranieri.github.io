@@ -111,3 +111,13 @@ p {
 #table {
   margin-top: 20px
 }
+
+.rotate-img {
+  transition: width 2s, height 2s, transform 2s;
+}
+
+.rotate-img:hover {
+  width: 300px;
+  height: 300px;
+  transform: rotate(1440deg);
+}
